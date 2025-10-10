@@ -1,0 +1,28 @@
+.navbar {
+    position: fixed;
+    margin-top: 20px;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 0;
+  }
+  .nav-btn {
+    border: 2px solid #fef5b5;
+    border-radius: 30px;
+    padding: 8px 24px;
+    background: transparent;
+    color: #7d7d7d;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .nav-btn:hover,
+  .nav-btn.active {
+    background: #fef5b5;
+    color: #7d7d7d;
+  }
+  
