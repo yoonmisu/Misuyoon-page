@@ -4,10 +4,10 @@ import "../styles/AboutMe.css";
 function AboutMe() {
   return (
     <div className="about-container">
-      <h6 className="hello">안녕하세요! 디자이너 & 프론트엔드 윤미수 입니다.</h6>
+      <h6 className="hello">안녕하세요, UX/UI Designer & Frontend Developer 윤미수 입니다</h6>
       <div className="quote-box">
         <p className="quote-text">
-         🧡 _  “사용자의 시선에서 직관적이고 감각적인 인터페이스를 디자인 하고 구현까지 이어갑니다.”
+        “픽셀 하나에 경험을 담고, 코드 한 줄에 미를 더합니다”
         </p>
       </div>
 
@@ -50,11 +50,7 @@ function AboutMe() {
           </div>
           <div className="career-item">
             <span className="year">2025</span>
-            <span className="desc">통합과학 웹개발 프로젝트 (진행중)</span>
-          </div>
-          <div className="career-item">
-            <span className="year">2025</span>
-            <span className="desc">G-STAR 역량 강화 경진대회 (진행중)</span>
+            <span className="desc">전공동아리 '아라' 인턴 활동</span>
           </div>
         </div>
       </div>

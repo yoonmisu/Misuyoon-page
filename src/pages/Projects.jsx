@@ -2,15 +2,15 @@ import React from "react";
 import "../styles/Projects.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import quickpickImg from "../assets/quickpick.png";
-import chilldoorImg from "../assets/chilldoor.png";
-import gstarImg from "../assets/gstar.png";
+import ahdukImg from "../assets/ahduk.png";
+import haramImg from "../assets/haram.png";
 import verdeImg from "../assets/verde.png";
 
 const projects = [
-  { id: 1, img: quickpickImg, title: "Quickpick", info: "#교내 클론 웹페이지 경진대회 우수상", tags: ["Design", "Frontend"] },
-  { id: 2, img: chilldoorImg, title: "Chilldoor", info: "#Dormmate 팀 프로젝트", tags: ["Design", "Frontend"] },
-  { id: 3, img: gstarImg, title: "Mutopia", info: "#G-STAR 역량 강화 경진대회 (진행중)", tags: ["3D Modeling", "Design", "Unity"] },
-  { id: 4, img: verdeImg, title: "Verde", info: "#통합 과학 웹 개발 팀 프로젝트 (진행중)", tags: ["PM", "Design", "Frontend"] },
+  { id: 1, img: quickpickImg, title: "Quickpick", info: "#교내 클론 웹페이지 경진대회 우수상", tags: ["UX/UI", "FE"] },
+  { id: 2, img: ahdukImg, title: "AHDUK", info: "#UX/UI 디자인 프로젝트", tags: ["Branding","UX/UI"] },
+  { id: 3, img: haramImg, title: "Haram", info: "#‘아라’ 인턴 프로젝트", tags: ["UX/UI", "FE"] },
+  { id: 4, img: verdeImg, title: "Verde", info: "#통합 과학 웹 개발 팀 프로젝트", tags: ["UX/UI", "FE"] },
 ];
 
 function Project() {
